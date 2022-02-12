@@ -21,12 +21,12 @@
           <h1>
             How we stand out-We are Proactive Experts.
           </h1>
-          <p class="black--text font-weight-medium mt-8">
+          <p>
             We Proactively consult, design, develop & scale robust web, mobile &
             custom software solutions, that fuel innovation & deliver digital
             success.
           </p>
-          <p class="mt-8 black--text">
+          <p>
             At Futuris Tech we believe that every project is an important
             milestone in our journey. So we position ourselves as a boutique
             digital agency, custom tailoring impactful digital solutions with
@@ -119,6 +119,13 @@
         >
       </v-flex>
     </v-layout>
+       <div class="core" style="margin-top:100px">
+      
+          <h1 class="text-h3 font-weight-bold d-flex justify-center">
+            CORE SERVICES
+          </h1>
+      
+    </div>
     <v-main>
       <v-layout row wrap class="mt-16 pt-12">
         <v-flex xs12 md12 class="testing white--text">
@@ -127,7 +134,8 @@
           </h1>
         </v-flex>
       </v-layout>
-    </v-main>
+    </v-main
+    >
     <v-main>
       <!-- <v-card class="mt-16 pt-8 colorS"> -->
       <v-layout row wrap class="mt-16 pt-8">
@@ -139,7 +147,7 @@
           ></v-img>
         </v-flex>
         <v-flex md5 xs11>
-          <h1 class="font-weight-bold mt-16 ml-16">
+          <h1 class="name">
             An award-winning video streaming app platform
           </h1>
           <p class="mt-8 ml-16">
@@ -176,7 +184,7 @@
             ></v-img>
           </v-flex>
           <v-flex md5 xs12 cols="4" class="ml-8">
-            <h2 class="mt-12 pt-8 underlin">
+            <h2 class="name">
               DISCOVERY WORKSHOP
             </h2>
             <p>
