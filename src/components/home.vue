@@ -104,13 +104,11 @@
                     </v-card-text>
                   </v-flex>
                 </v-layout> -->
-              </v-carousel-item>
-            </v-carousel>
+      
           </v-card>
            <v-layout row wrap>
       <v-flex class="d-flex justify-center" md12>
         <v-btn
-          outlined
           to="/contact-us"
           style="text-decoration:none"
           class="button"
