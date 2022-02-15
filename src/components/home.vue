@@ -150,7 +150,8 @@
         <v-layout wrap row>
           <v-flex xs12 md6>
             <v-img
-              height="100%"
+              height="500px"
+              width="750px"
               src="../assets/zain.jpg"
             ></v-img>
           </v-flex>
@@ -165,33 +166,13 @@
               process.
             </p>
             <v-btn
-              class="mt-12 underli"
-              to="/contact-us"
-              style="zain"
-              outlined
-              large
+            class="body"
               >Get in touch</v-btn
             >
           </v-flex>
         </v-layout>
       </div>
     </v-main>
-    <div>
-      <v-row>
-        <v-col cols="1">
-          <v-btn
-            class="mt-2"
-            style="text-decoration: none"
-            text
-            v-for="item in itemses"
-            :key="item"
-            :to="item.id"
-            >{{ item.title }}</v-btn
-          ></v-col
-        >
-        <v-col cols="8"></v-col
-      ></v-row>
-    </div>
   </div>
 </template>
 <script>
@@ -272,5 +253,47 @@ button:active {
   box-shadow: 0 0 0.6em 0.25em var(--glow-color),
     0 0 2.5em 2em var(--glow-spread-color),
     inset 0 0 0.5em 0.25em var(--glow-color);
+}
+.body {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
 }
 </style>
